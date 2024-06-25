@@ -19,5 +19,5 @@
 
 ## Скриншоты
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="813" alt="image" src="https://github.com/Iren4ik/test-task-for-Stworka/assets/124435764/e39a275b-a46a-48f1-a33b-818bc9bfcfea">
 
