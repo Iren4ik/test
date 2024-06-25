@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-
-</head>
-<body>
-  <p>Привет</p>
-  <p>дружок</p>
-  
-  <p>Привет</p>
-  <p>дружок</p>
-  
-  <p>Как дела?</p>
-  <p>Как дела?</p>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress-right">
+        <div class="progressbar-wrapper">
+          <div class="progressbar">
+            <svg class="progressbar-circle">
+              <circle class="bg" cx="30" cy="30" r="27" />
+              <circle class="meter" cx="30" cy="30" r="27" />
+            </svg>
+            <span class="progress-num">0/7</span>
+          </div>
+        </div>
+        <div class="progress-text">
+          <div class="progress-text__checklist">Чеклист</div>
+          <div class="progress-text__progress">Выполнено: 0 из 7 действий</div>
+          <div class="progress-text__next-step">
+            Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+          </div>
+        </div>
+      </div>
+      <button class="progress-button">Открыть чеклист</button>
+    </div>
+  </body>
 </html>
